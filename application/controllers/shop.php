@@ -53,12 +53,12 @@ class Shop extends CI_Controller {
 		$total = $this->input->post('subtot');
 
 		$data_header = array(
-							"shop_code" => $kode_header,
-							"kode_capster" => $capster,
-							"kode_customer" => $customer,
-							"shop_date" => $date,
-							"total" => $total
-						);
+				"shop_code" => $kode_header,
+				"kode_capster" => $capster,
+				"kode_customer" => $customer,
+				"shop_date" => $date,
+				"total" => $total
+				);
 
 		//POST Detail
 		$data_detail = $this->input->post('Detail');
